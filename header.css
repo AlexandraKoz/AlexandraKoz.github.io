@@ -10,7 +10,7 @@ header {
     margin: 0px;
 }
 .header__navigation {
-    display: inline-block;
+    display: block;
     float: right;
     padding: 5px 15px;
     color: gray;
