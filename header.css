@@ -1,9 +1,10 @@
 header {
     height: 70px;
     background-color: white;
-    border-bottom: 2px solid orangered;
+    border-bottom: 2px solid orange;
     font-family: Helvetica, sans-serif;
 }
+
 .header__menu {
     padding: 0px 300px;
     margin: 0px;
@@ -15,17 +16,22 @@ header {
     color: gray;
     font-size: 20px;
 }
-.header__orange {
+.header__rabbit-and-text {
+    display: inline-block;
+
+}
+/*.header__orange {
     display: inline-block;
     float: left;
     clear: left;
-    color: orangered;
-    padding: 15px 400px 0px 400px;
+    color: orange;
+    padding: 15px 0px 0px 400px;
 }
 .header__rabbit {
     display: inline-block;
     float: left;
     clear: left;
-    color: black;
+    color: grey;
+    font-weight: bolder;
     padding: 0px 0px 0px 400px;
-}
+}*/
