@@ -4,10 +4,29 @@ header {
     border-bottom: 2px solid orange;
     font-family: Helvetica, sans-serif;
 }
-
+header .header__logo {
+    width: 15%;
+    padding-left: 250px;
+    display: inline-block;
+}
+.header__logo h1 {
+    color: orange;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: relative;
+}
+.header__logo span {
+    color: grey;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 2px;
+    display: block;
+    font-size: 25px;
+}
 .header__menu {
-    padding: 0px 300px;
+    padding-left: 250px;
     margin: 0px;
+    display: inline-block;
 }
 .header__navigation {
     display: block;
@@ -16,21 +35,7 @@ header {
     color: gray;
     font-size: 20px;
 }
-img {
+.header__logo img {
     float: left;
-    padding: 15px 0px 0px 350px;
-}
-.header__orange {
-    display: block;
-    float: left;
-    clear: right;
-    color: orange;
-    padding: 15px 0px 0px 0px;
-}
-.header__rabbit {
-    display: block;
-    float: left;
-    color: grey;
-    font-weight: bolder;
-    padding: 30px 0px 0px 0px;
+    padding-top: 10px;
 }
