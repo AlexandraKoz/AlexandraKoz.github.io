@@ -1,6 +1,7 @@
 .news-scroll {
     background: url(./slice-orange.png) no-repeat center 0;
     border-bottom: 2px orange solid;
+    border-top: 2px orange solid;
     height: 400px;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
@@ -13,7 +14,7 @@
 .news-scroll__black-text {
     position: absolute;
     top: 130px;
-    left: 220px;
+    left: 155px;
     letter-spacing: 1px;
     background-color: black;
     opacity: 0.8;
@@ -23,10 +24,10 @@
 .news-scroll__orange-text {
     position: absolute;
     top: 225px;
-    left: 210px;
+    left: 150px;
     letter-spacing: 1px;
     background-color: orange;
     opacity: 0.8;
-    color: black;
+    color: grey;
     padding: 10px;
 }
