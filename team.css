@@ -1,0 +1,12 @@
+.team-member {
+    display: inline-block;
+}
+.team-member__name {
+    font-family: Helvetica, sans-serif;
+}
+.team-member__name p {
+    color: grey;
+}
+.team-member__name span {
+    color: orange;
+}
