@@ -13,13 +13,18 @@
     font-family: Helvetica, sans-serif;
     margin-bottom: 25px;
 }
-.team-member__name grey {
+.team-member__name-grey {
     color: grey;
 }
-.team-member__name orange {
+.team-member__name-orange {
     color: orange;
 }
 .team-member img {
     border-radius: 50%;
     border: 5px orange solid;
+}
+.team-member__description {
+    margin-top: 30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
 }
