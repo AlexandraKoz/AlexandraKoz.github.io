@@ -1,12 +1,25 @@
+.team {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
 .team-member {
-    display: inline-block;
+    justify-self: center;
+    margin-left: 200px;
 }
 .team-member__name {
+    text-align: center;
     font-family: Helvetica, sans-serif;
+    margin-bottom: 25px;
 }
-.team-member__name p {
+.team-member__name grey {
     color: grey;
 }
-.team-member__name span {
+.team-member__name orange {
     color: orange;
+}
+.team-member img {
+    border-radius: 50%;
+    border: 5px orange solid;
 }
