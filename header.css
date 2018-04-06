@@ -5,22 +5,19 @@ header {
     margin: 0 auto;
     font-family: Helvetica, sans-serif;
 }
-.header__button a {
-    color: gray;
-}
-header .logo {
+.logo {
     width: 15%;
     padding-left: 150px;
     display: inline-block;
 }
-.logo h1 {
+.logo__orange-text {
     color: orange;
     font-family: Helvetica, sans-serif;
     letter-spacing: 3px;
     font-size: 20px;
     position: relative;
 }
-.logo span {
+.logo__grey-text {
     color: grey;
     font-family: Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -40,7 +37,7 @@ header .logo {
     color: gray;
     font-size: 20px;
 }
-.logo img {
+.logo__img {
     float: left;
     margin-left: -70px;
 }

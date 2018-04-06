@@ -20,7 +20,7 @@
 .team-member__name-orange {
     color: orange;
 }
-.team-member img {
+.team-member__img {
     border-radius: 50%;
     border: 5px orange solid;
 }
