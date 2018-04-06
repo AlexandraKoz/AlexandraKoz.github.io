@@ -1,0 +1,30 @@
+.form-wrapper {
+    max-width: 1200px;
+    padding: 37px 0 76px 0;
+    margin: 0 auto;
+}
+.send-message-form {
+    font-family: Helvetica, sans-serif;
+    color: orange;
+    font-size: 25px;
+}
+fieldset input, fieldset textarea{
+    margin-right: 50px;
+    width: 1000px;
+    float: right;
+    border: none;
+    background-color: #dfdedd;
+    box-shadow: inset 45px 44px 1px -40px #d2d0cf;
+}
+[type="submit"]{
+    float: right;
+    background-color: orange;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 5px 40px;
+    border: 1px solid orange;
+    margin-top: 20px;
+    margin-right: 80px;
+    box-shadow: 0px 2px 1px 0px darkorange;
+}

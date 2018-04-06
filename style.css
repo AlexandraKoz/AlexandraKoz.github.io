@@ -3,8 +3,9 @@ body {
     padding: 0;
     max-width: 1400px;
 }
-a, p, h1, ul, li {
+a, p, h1, ul, li, fieldset {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    border-width: 0px;
 }
