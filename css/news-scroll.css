@@ -1,5 +1,5 @@
 .news-scroll {
-    background: url(./slice-orange.png) no-repeat center 0;
+    background-image: url("../img/slice-orange.png");
     border-bottom: 2px orange solid;
     border-top: 2px orange solid;
     height: 400px;
