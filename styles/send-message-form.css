@@ -1,9 +1,17 @@
-.form-wrapper {
+.send-message {
     max-width: 1200px;
     padding: 37px 0 76px 0;
     margin: 0 auto;
 }
-.send-message-form {
+.send-message__text {
+    margin-bottom: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: orange;
+}
+.send-message__form {
     font-family: Helvetica, sans-serif;
     color: orange;
     font-size: 25px;
@@ -14,8 +22,8 @@ fieldset input, fieldset textarea{
     width: 1000px;
     float: right;
     border: none;
-    background-color: #dfdedd;
-    box-shadow: inset 45px 44px 1px -40px #d2d0cf;
+    background-color: #f2f2f2;
+    box-shadow: inset 45px 44px 1px -40px #b3b3b3;
 }
 [type="submit"]{
     float: right;
@@ -28,7 +36,15 @@ fieldset input, fieldset textarea{
     margin-top: 20px;
     margin-right: 80px;
     box-shadow: 0px 2px 1px 0px darkorange;
+    cursor: pointer;
 }
-#name {
-    margin-left: 20px;
+input[type="text"], input[type="email"] {
+    margin-bottom: 25px;
+    height: 30px;
 }
+/*label[for="name"], label[for="email"], label[for="message"] {
+    padding: 10px;
+}
+.send-message-form__full {
+    margin: 15px;
+}*/

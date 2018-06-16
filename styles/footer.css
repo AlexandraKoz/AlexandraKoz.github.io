@@ -12,6 +12,7 @@
     padding: 18px;
 }
 .footer__copyright {
+    text-transform: uppercase;
     font-family: Helvetica, sans-serif;
     font-size: 25px;
     color: white;

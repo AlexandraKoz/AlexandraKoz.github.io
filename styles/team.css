@@ -5,6 +5,14 @@
     grid-template-rows: 33.3% 33.3% 33.3%;
     margin-left: 40px;
 }
+.team__meet-text {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
 .team-member {
     justify-self: center;
     margin-left: 90px;
@@ -14,13 +22,13 @@
     font-family: Helvetica, sans-serif;
     margin-bottom: 25px;
 }
-.team-member__name-grey {
+.team-member__name-person {
     color: grey;
 }
-.team-member__name-orange {
+.team-member__name-post {
     color: orange;
 }
-.team-member__img {
+.team-member__image {
     border-radius: 50%;
     border: 5px orange solid;
 }

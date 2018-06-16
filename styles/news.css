@@ -1,5 +1,5 @@
-.news-scroll {
-    background-image: url("../img/slice-orange.png");
+.news {
+    background-image: url("../image/slice-orange.png");
     border-bottom: 2px orange solid;
     border-top: 2px orange solid;
     height: 400px;
@@ -11,7 +11,7 @@
     position: relative;
     font-size: 35px;
 }
-.news-scroll__black-text {
+.news__do-you-like-rabbits-text {
     position: absolute;
     top: 130px;
     left: 155px;
@@ -21,7 +21,7 @@
     color: orange;
     padding: 5px;
 }
-.news-scroll__orange-text {
+.news__do-you-like-oranges-text {
     position: absolute;
     top: 225px;
     left: 150px;

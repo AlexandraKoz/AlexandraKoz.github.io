@@ -1,0 +1,13 @@
+.navigation {
+    padding-left: 390px;
+    display: inline-block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navigation__button {
+    display: block;
+    float: right;
+    padding: 22px 25px 5px 25px;
+    color: gray;
+    font-size: 20px;
+}
