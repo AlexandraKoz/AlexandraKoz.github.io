@@ -1,25 +1,25 @@
 header {
     height: 70px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     max-width: 1200px;
     margin: 0 auto;
     font-family: Helvetica, sans-serif;
 }
 .logo {
     width: 15%;
-    padding-left: 60px;
+    padding: 0 0 0 60px;
     display: inline-block;
 }
 .logo__orange-text {
-    color: orange;
+    color: rgb(255, 165, 0);
     font-family: Helvetica, sans-serif;
     letter-spacing: 3px;
     font-size: 20px;
     position: relative;
-    margin-left: 80px;
+    margin: 0 0 0 80px;
 }
 .logo__rabbit-text {
-    color: grey;
+    color: rgb(128, 128, 128);
     font-family: Helvetica, sans-serif;
     letter-spacing: 2px;
     display: block;
