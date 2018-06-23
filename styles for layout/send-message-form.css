@@ -1,54 +1,76 @@
-.send-message {
+.send-message
+{
     max-width: 1200px;
-    padding: 37px 0 76px 0;
     margin: 0 auto;
+    padding: 37px 0 76px 0;
 }
-.send-message__text {
-    margin: 0 0 50px 0;
+.send-message__text
+{
     font-family: Helvetica, sans-serif;
-    text-decoration: underline;
     font-size: 30px;
-    letter-spacing: 3px;
+
+    margin: 0 0 50px 0;
+
     text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+
     color: rgb(255, 165, 0);
 }
-.send-message__form {
+.send-message__form
+{
     font-family: Helvetica, sans-serif;
-    color: rgb(255, 165, 0);
     font-size: 25px;
+
     margin: 0 0 0 30px;
+
+    color: rgb(255, 165, 0);
 }
-.send-message__enter {
-    margin: 0 30px 0 0;
-    width: 1000px;
+.send-message__enter
+{
     float: right;
+
+    width: 1000px;
+    margin: 0 30px 0 0;
+
     border: none;
     background-color: rgb(242, 242, 242);
     box-shadow: inset 45px 44px 1px -40px rgb(179, 179, 179);
 }
-.send-message__button {
-    float: right;
-    background-color: rgb(255, 165, 0);
-    color: rgb(255, 255, 255);
+.send-message__button
+{
     font-family: Helvetica, sans-serif;
     font-size: 25px;
-    padding: 5px 40px;
-    border: 1px solid rgb(255, 165, 0);
-    margin: 20px 80px 0 0;
-    box-shadow: 0px 2px 1px 0px rgb(255, 140, 0);
-    cursor: pointer;
-}
-.send-message__name, .send-message__email {
-    margin: 0 30px 0 0;
-    width: 1000px;
+
     float: right;
+
+    margin: 20px 80px 0 0;
+    padding: 5px 40px;
+
+    cursor: pointer;
+
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 165, 0);
+    background-color: rgb(255, 165, 0);
+    box-shadow: 0 2px 1px 0 rgb(255, 140, 0);
+}
+.send-message__name,
+.send-message__email
+{
+    float: right;
+
+    width: 1000px;
+    height: 30px;
+    margin: 0 30px 0 0;
+    margin: 0 32px 25px 0;
+
     border: none;
     background-color: rgb(242, 242, 242);
     box-shadow: inset 45px 44px 1px -40px rgb(179, 179, 179);
-    margin: 0 32px 25px 0;
-    height: 30px;
 }
-.send-message__label {
+.send-message__label
+{
     display: inline-block;
+
     margin: 0 0 30px 0;
 }

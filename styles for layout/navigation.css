@@ -1,13 +1,19 @@
-.navigation {
-    padding : 0 0 0 390px;
+.navigation
+{
     display: inline-block;
+
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 0 0 390px;
 }
-.navigation__item {
+.navigation__item
+{
+    font-size: 20px;
+
     display: block;
     float: right;
+
     padding: 22px 25px 5px 25px;
+
     color: rgb(128, 128, 128);
-    font-size: 20px;
 }

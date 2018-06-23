@@ -1,18 +1,25 @@
-.news {
+.news
+{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 0 0 85px;
 }
-.news__item {
-    width: 17.5em;
-    display: inline-block;
-    padding: 22px 22px 23px 20px;
+.news__item
+{
     font-size: 13px;
+
+    display: inline-block;
+
+    width: 17.5em;
+    padding: 22px 22px 23px 20px;
 }
-.news__more a {
-    color: rgb(255, 165, 0);
+.news__more a
+{
     font-family: Helvetica, sans-serif;
-    padding: 0 0 0 150px;
     font-size: 13px;
     font-style: italic;
+
+    padding: 0 0 0 150px;
+
+    color: rgb(255, 165, 0);
 }

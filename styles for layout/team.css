@@ -1,40 +1,60 @@
-.team {
-    max-width: 1200px;
+.team__all-members
+{
     display: grid;
+
+    max-width: 1200px;
+    margin: 0 0 0 40px;
+
     grid-template-columns: 33.333% 33.333% 33.333%;
     grid-template-rows: 33.333% 33.333% 33.333%;
-    margin: 0 0 0 40px;
 }
-.team__meet-text {
-    color: rgb(255, 165, 0);
-    text-align: center;
+.team__meet-text
+{
+    font-family: Helvetica, sans-serif;
     font-size: 30px;
-    font-family: Helvetica, sans-serif;
+
     margin: 20px 0 36px 0;
-    text-decoration: underline;
-}
-.team-member {
-    justify-self: center;
-    margin: 0 0 0 90px;
-}
-.team-member__person-name {
+
     text-align: center;
+    text-decoration: underline;
+
+    color: rgb(255, 165, 0);
+}
+.team-member
+{
+    margin: 0 0 0 90px;
+
+    justify-self: center;
+}
+.team-member__person-name
+{
     font-family: Helvetica, sans-serif;
+
     margin: 0 0 25px 0;
+
+    text-align: center;
+
     color: rgb(128, 128, 128);
 }
-.team-member__person-post {
-    text-align: center;
+.team-member__person-post
+{
     font-family: Helvetica, sans-serif;
+
     margin: 0 0 25px 0;
+
+    text-align: center;
+
     color: rgb(255, 165, 0);
 }
-.team-member__image {
-    border-radius: 50%;
+.team-member__image
+{
     border: 5px rgb(255, 165, 0) solid;
+    border-radius: 50%;
 }
-.team-member__description {
-    margin: 30px 0 0 0;
+.team-member__description
+{
     font-family: Helvetica, sans-serif;
     font-size: 15px;
+
+    margin: 30px 0 0 0;
 }

@@ -1,14 +1,24 @@
-body {
+body
+{
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0;
-    max-width: 1400px;
 }
-a, p, h1, ul, li, fieldset {
+a,
+p,
+h1,
+ul,
+li,
+fieldset
+{
     margin: 0;
     padding: 0;
+
     text-decoration: none;
-    border-width: 0px;
+
+    border-width: 0;
 }
-a {
+a
+{
     color: rgb(128, 128, 128);
 }
