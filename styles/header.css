@@ -1,0 +1,10 @@
+.header
+{
+    font-family: Helvetica, sans-serif;
+
+    max-width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+
+    background-color: rgb(255, 255, 255);
+}

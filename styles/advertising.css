@@ -16,13 +16,14 @@
     border-bottom: 2px rgb(255, 165, 0) solid;
     background-image: url('../image/slice-orange.png');
 }
-.advertising__first-transparent-text
+.advertising__title
 {
     position: absolute;
     top: 130px;
     left: 155px;
 
     padding: 5px;
+    text-transform: uppercase;
 
     letter-spacing: 1px;
 
@@ -30,13 +31,14 @@
     color: rgb(255, 165, 0);
     background-color: rgb(0, 0, 0);
 }
-.advertising__second-transparent-text
+.advertising__inscription
 {
     position: absolute;
     top: 225px;
     left: 150px;
 
     padding: 10px;
+    text-transform: uppercase;
 
     letter-spacing: 1px;
 
