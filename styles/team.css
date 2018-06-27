@@ -1,14 +1,12 @@
 .team__all-members
 {
     display: grid;
-
-    max-width: 1200px;
-    margin: 0 0 0 40px;
+    justify-content: center;
 
     grid-template-columns: 33.333% 33.333% 33.333%;
     grid-template-rows: 33.333% 33.333% 33.333%;
 }
-.team__meet-text
+.team__meet-the-team-text
 {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
@@ -22,9 +20,9 @@
 }
 .team-member
 {
-    margin: 0 0 0 90px;
+    margin: 0 0 0 70px;
 
-    justify-self: center;
+    justify-content: center;
 }
 .team-member__person-name
 {
