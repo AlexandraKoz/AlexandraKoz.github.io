@@ -6,7 +6,6 @@
 
     position: relative;
 
-    clear: both;
     overflow: hidden;
 
     height: 400px;
@@ -16,7 +15,10 @@
     border-bottom: 2px solid #ffa500;
     background-image: url('../image/slice-orange.png');
 }
-.advertising__title
+.advertising__util {
+    clear: both;
+}
+.util__title
 {
     position: absolute;
     top: 130px;
@@ -31,7 +33,7 @@
     color: #ffa500;
     background-color: #000000;
 }
-.advertising__inscription
+.util__inscription
 {
     position: absolute;
     top: 225px;
