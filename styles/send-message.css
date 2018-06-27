@@ -15,7 +15,7 @@
     text-decoration: underline;
     letter-spacing: 3px;
 
-    color: rgb(255, 165, 0);
+    color: #ffa500;
 }
 .send-message__form
 {
@@ -24,7 +24,7 @@
 
     margin: 0 0 0 30px;
 
-    color: rgb(255, 165, 0);
+    color: #ffa500;
 }
 .form__enter
 {
@@ -34,8 +34,8 @@
     margin: 0 30px 0 0;
 
     border: none;
-    background-color: rgb(242, 242, 242);
-    box-shadow: inset 45px 44px 1px -40px rgb(179, 179, 179);
+    background-color: #f2f2f2;
+    box-shadow: inset 45px 44px 1px -40px #b3b3b3;
 }
 .form__button
 {
@@ -49,10 +49,10 @@
 
     cursor: pointer;
 
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 165, 0);
-    background-color: rgb(255, 165, 0);
-    box-shadow: 0 2px 1px 0 rgb(255, 140, 0);
+    color: #ffffff;
+    border: 1px solid #ffa500;
+    background-color: #ffa500;
+    box-shadow: 0 2px 1px 0 #ff8c00;
 }
 .form__name,
 .form__email
@@ -65,8 +65,8 @@
     margin: 0 32px 25px 0;
 
     border: none;
-    background-color: rgb(242, 242, 242);
-    box-shadow: inset 45px 44px 1px -40px rgb(179, 179, 179);
+    background-color: #f2f2f2;
+    box-shadow: inset 45px 44px 1px -40px #b3b3b3;
 }
 .form__label
 {

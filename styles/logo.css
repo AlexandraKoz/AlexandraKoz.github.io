@@ -2,7 +2,6 @@
 {
     display: inline-block;
 
-    width: 15%;
     padding: 0 0 0 60px;
 }
 .logo__color-text
@@ -16,7 +15,7 @@
 
     letter-spacing: 3px;
 
-    color: rgb(255, 165, 0);
+    color: #ffa500;
 }
 .logo__rabbit-text
 {
@@ -28,7 +27,7 @@
 
     letter-spacing: 2px;
 
-    color: rgb(128, 128, 128);
+    color: #808080;
 }
 .logo__image
 {

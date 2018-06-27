@@ -12,8 +12,8 @@
     height: 400px;
     margin: 0 auto;
 
-    border-top: 2px rgb(255, 165, 0) solid;
-    border-bottom: 2px rgb(255, 165, 0) solid;
+    border-top: 2px solid #ffa500;
+    border-bottom: 2px solid #ffa500;
     background-image: url('../image/slice-orange.png');
 }
 .advertising__title
@@ -28,8 +28,8 @@
     letter-spacing: 1px;
 
     opacity: .6;
-    color: rgb(255, 165, 0);
-    background-color: rgb(0, 0, 0);
+    color: #ffa500;
+    background-color: #000000;
 }
 .advertising__inscription
 {
@@ -43,6 +43,6 @@
     letter-spacing: 1px;
 
     opacity: .8;
-    color: rgb(128, 128, 128);
-    background-color: rgb(255, 165, 0);
+    color: #808080;
+    background-color: #ffa500;
 }

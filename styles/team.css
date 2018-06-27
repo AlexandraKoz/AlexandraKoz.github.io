@@ -14,11 +14,11 @@
     font-size: 40px;
 
     margin: 20px 0 36px 0;
-    border-top: 1px solid gray;
+    border-top: 1px solid #808080;
     text-align: center;
     text-decoration: underline;
 
-    color: rgb(255, 165, 0);
+    color: #ffa500;
 }
 .team-member
 {
@@ -34,7 +34,7 @@
 
     text-align: center;
 
-    color: rgb(128, 128, 128);
+    color: #808080;
 }
 .team-member__person-post
 {
@@ -44,11 +44,11 @@
 
     text-align: center;
 
-    color: rgb(255, 165, 0);
+    color: #ffa500;
 }
 .team-member__image
 {
-    border: 5px rgb(255, 165, 0) solid;
+    border: 5px solid #ffa500;
     border-radius: 50%;
 }
 .team-member__description
