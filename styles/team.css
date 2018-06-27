@@ -11,10 +11,10 @@
 .team__meet-text
 {
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 
     margin: 20px 0 36px 0;
-
+    border-top: 1px solid gray;
     text-align: center;
     text-decoration: underline;
 

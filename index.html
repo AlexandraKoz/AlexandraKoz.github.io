@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/advertising.css">
     <link rel="stylesheet" type="text/css" href="./styles/news.css">
     <link rel="stylesheet" type="text/css" href="./styles/team.css">
-    <link rel="stylesheet" type="text/css" href="./styles/send-message-form.css">
+    <link rel="stylesheet" type="text/css" href="./styles/send-message.css">
     <link rel="stylesheet" type="text/css" href="./styles/footer.css">
     <title>Animals</title>
 </head>
@@ -57,7 +57,9 @@
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <p class="news__more"><a href="#">read more...</a></p>
+            <p class="news__more">
+                <a href="#">read more...</a>
+            </p>
         </article>
         <article class="news__item">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -78,34 +80,33 @@
              <p class="news__more"><a href="#">read more...</a></p>
          </article>
     </section>
-    <hr>
-    <section>
-        <p class="team__meet-text">Meet the team</p>
+    <section class="team">
+        <h1 class="team__meet-text">Meet the team</h1>
         <div class="team__all-members">
         <div class="team-member">
-            <p class="team-member__person-name">Hoof
+            <h2 class="team-member__person-name">Hoof
                 <span class="team-member__person-post">- Lead Designer</span>
-            </p>
-            <img src="./image/horse.jpg" alt="our team" class="team-member__image">
+            </h2>
+            <img src="./image/horse.jpg" alt="member of our team" class="team-member__image">
             <p class="team-member__description"> Hoof is our most talantad designer.
                 However he is not the talkative type and I would advise not getting 
                 on the wrong side of him.</p>
         </div>
         <div class="team-member">
-                <p class="team-member__person-name">Nibs
+                <h2 class="team-member__person-name">Nibs
                     <span class="team-member__person-post">- CEO/Director</span>
-                </p>
-                <img src="./image/rabbit.jpg" alt="our team" class="team-member__image">
+                </h2>
+                <img src="./image/rabbit.jpg" alt="member of our team" class="team-member__image">
                 <p class="team-member__description"> Nibs is our go to woman.
                      She is the ceo/director of orange rabbit and runs fast 
                      when she has too.
                 </p>
         </div>
         <div class="team-member">
-                <p class="team-member__person-name">Squawk
+                <h2 class="team-member__person-name">Squawk
                     <span class="team-member__person-post">- Developer</span>
-                </p>
-                <img src="./image/ostrich.jpg" alt="our team" class="team-member__image">
+                </h2>
+                <img src="./image/ostrich.jpg" alt="member of our team" class="team-member__image">
                 <p class="team-member__description"> Squawk is no social bunny.
                     But when it comes to programming he stands out from the crowd.</p>
         </div>
@@ -115,14 +116,14 @@
             <p class="send-message__text">Send us a message...</p>
             <form>
                 <fieldset class="send-message__form">
-                        <label class="send-message__label" for="name">Name: </label>
-                        <input class="send-message__name" type="text"><br>
-                        <label class="send-message__label" for="email">Email: </label>
-                        <input class="send-message__email" type="email"><br>
-                        <label class="send-message__label" for="message">Message: </label>
-                        <textarea  class="send-message__enter" cols="40" rows="4"></textarea><br>
+                        <label class="form__label">Name: </label>
+                        <input class="form__name" type="text"><br>
+                        <label class="form__label">Email: </label>
+                        <input class="form__email" type="email"><br>
+                        <label class="form__label">Message: </label>
+                        <textarea  class="form__enter" cols="40" rows="4"></textarea><br>
                 </fieldset>
-                <button class="send-message__button" type="submit">Submit</button>
+                <button class="form__button" type="submit">Submit</button>
             </form>
     </div>
     <footer class="footer">

@@ -23,3 +23,9 @@
 
     color: rgb(255, 165, 0);
 }
+.news__line {
+    background-image: linear-gradient(black, black);
+    background-size: 100% 1px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
