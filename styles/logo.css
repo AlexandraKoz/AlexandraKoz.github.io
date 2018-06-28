@@ -1,0 +1,35 @@
+.logo
+{
+    display: inline-block;
+
+    padding: 0 0 0 130px;
+}
+.logo__color-text
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+
+    position: relative;
+
+    margin: 0 0 0 80px;
+
+    letter-spacing: 3px;
+
+    color: #ffa500;
+}
+.logo__rabbit-text
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+
+    display: block;
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: #808080;
+}
+.logo__image
+{
+    float: left;
+}

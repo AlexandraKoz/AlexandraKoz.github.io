@@ -1,30 +1,9 @@
-header {
+.header
+{
+    font-family: Helvetica, sans-serif;
+
     height: 70px;
-    background-color: white;
-    max-width: 1200px;
     margin: 0 auto;
-    font-family: Helvetica, sans-serif;
-}
-.logo {
-    width: 15%;
-    padding-left: 60px;
-    display: inline-block;
-}
-.logo__orange-text {
-    color: orange;
-    font-family: Helvetica, sans-serif;
-    letter-spacing: 3px;
-    font-size: 20px;
-    position: relative;
-    margin-left: 80px;
-}
-.logo__rabbit-text {
-    color: grey;
-    font-family: Helvetica, sans-serif;
-    letter-spacing: 2px;
-    display: block;
-    font-size: 25px;
-}
-.logo__image {
-    float: left;
+
+    background-color: #ffffff;
 }

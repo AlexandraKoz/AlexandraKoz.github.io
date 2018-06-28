@@ -1,33 +1,24 @@
-.news {
-    background-image: url("../image/slice-orange.png");
-    border-bottom: 2px orange solid;
-    border-top: 2px orange solid;
-    height: 400px;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
+.news
+{
     margin: 0 auto;
-    overflow: hidden;
-    clear: both;
-    position: relative;
-    font-size: 35px;
+    padding: 0 0 0 130px;
 }
-.news__do-you-like-rabbits-text {
-    position: absolute;
-    top: 130px;
-    left: 155px;
-    letter-spacing: 1px;
-    background-color: black;
-    opacity: 0.8;
-    color: orange;
-    padding: 5px;
+.news__item
+{
+    font-size: 13px;
+
+    display: inline-block;
+
+    width: 17.5em;
+    padding: 22px 22px 23px 20px;
 }
-.news__do-you-like-oranges-text {
-    position: absolute;
-    top: 225px;
-    left: 150px;
-    letter-spacing: 1px;
-    background-color: orange;
-    opacity: 0.8;
-    color: grey;
-    padding: 10px;
+.news__more a
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+
+    padding: 0 0 0 150px;
+
+    color: #ffa500;
 }

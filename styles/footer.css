@@ -1,19 +1,26 @@
-.footer {
+.footer
+{
     position: relative;
-    max-width: 1400px;
-    background-color: orange;
-    text-align: center;
+
+
     height: 70px;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
+
+    text-align: center;
+
+    background-color: #ffa500;
 }
-.footer-wrapper {
-    margin-left: 75px;
-    max-width: 1200px;
+.footer-wrapper
+{
+    margin: 0 0 0 75px;
     padding: 18px;
 }
-.footer__copyright {
-    text-transform: uppercase;
+.footer__copyright
+{
     font-family: Helvetica, sans-serif;
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
 }
